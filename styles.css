@@ -117,23 +117,23 @@ img {
 
 .caption {
         font-family: 'Noto Sans', sans-serif; 
-        font-size: .8rem;
-        line-height: .9;
+        font-size: .75rem;
+        line-height: 1;
         vertical-align: baseline;
-        color: #767676; 
+        color: #767676;
 }
 
 .sidenote,
 .marginnote {
     float: right;
     clear: right;
-    margin-right: -66.6667%;
+    margin-right: -65%;
     width: 50%;
     margin-top: 7px;
     margin-bottom: 0;
     padding-bottom: 2px;
     font-family: 'Noto Sans', sans-serif; 
-    font-size: .8rem;
+    font-size: .75rem;
     line-height: 1.3;
     vertical-align: baseline;
     position: relative; 
@@ -232,4 +232,21 @@ footer nav a:hover {
 
 footer .copyright {
     font-size: 13px;
+}
+
+/* Media queries for mobile */
+
+/* max-width of 480px */
+
+@media (max-width: 480px) {
+
+section > * {
+    width: 100%;
+}
+
+.sidenote,
+.marginnote {
+    display: none;
+}
+
 }
