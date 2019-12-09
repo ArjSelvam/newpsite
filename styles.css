@@ -39,10 +39,10 @@ header .container {
     font-family: 'Noto Serif', serif;
     font-size: 28px;
     /* text-transform: uppercase; */
-} */
 
 header nav a {
     /* font-family: 'Fira Sans', sans-serif; */
+    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -50,13 +50,13 @@ header nav a {
     line-height: 1.2;
     -webkit-font-smoothing: antialiased;
     /* text-transform: uppercase; */
-    text-decoration: none;
     color: #111118;
     margin-left: 15px;
 }
 
-header nav a:hover {
-        border-bottom: solid 2px #A9653C; 
+header nav a:hover, a:visited {
+    text-decoration: none;
+    border-bottom: solid 2px #A9653C; 
 }
 
 br {
