@@ -249,4 +249,15 @@ section > * {
     display: none;
 }
 
+br {
+    line-height: 30%;
+ }
+
+.caption {
+    font-size: .7rem;
+    line-height: 1;
+    vertical-align: baseline;
+    color: #767676;
+}
+
 }
