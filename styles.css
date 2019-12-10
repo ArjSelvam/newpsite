@@ -138,12 +138,12 @@ img {
     float: right;
     clear: right;
     margin-right: -65%;
-    width: 50%;
+    width: 55%;
     margin-top: 7px;
     margin-bottom: 0;
     padding-bottom: 2px;
     font-family: 'Noto Sans', sans-serif; 
-    font-size: .75rem;
+    font-size: .7rem;
     line-height: 1.5;
     vertical-align: baseline;
     position: relative; 
@@ -211,27 +211,32 @@ label.margin-toggle:not(.sidenote-number) {
 
 /*  Playlist */
 
-.music h2 {
-    color: #767676;
-}
-
 .month {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 25px;
+}
+
+.music h2 {
+    color: #767676;
 }
 
 .artwork img {
     max-width:  250px;
 }
 
+.summary {
+    max-width: 400px;
+    margin-top:  -15px;
+}
+
 .tracklist {
     font-size: .7rem;
     line-height: 1;
     vertical-align: baseline;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 footer {
