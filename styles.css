@@ -128,10 +128,14 @@ img {
 .caption {
         font-family: 'Noto Sans', sans-serif; 
         font-size: .75rem;
-        line-height: 1;
+        line-height: 1.5;
         vertical-align: baseline;
         color: #767676;
 }
+
+/* .hook {
+    margin-top: 5px;
+} */
 
 .sidenote,
 .marginnote {
@@ -225,6 +229,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 .artwork img {
     max-width:  250px;
+    margin-bottom: -7px;
 }
 
 .summary {
