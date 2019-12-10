@@ -40,6 +40,11 @@ header .container {
     font-size: 28px;
     /* text-transform: uppercase; */
 
+nav .highlighted {
+    color: #767676;
+}
+
+
 header nav a {
     /* font-family: 'Fira Sans', sans-serif; */
     text-decoration: none;
@@ -214,7 +219,7 @@ label.margin-toggle:not(.sidenote-number) {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .artwork img {
