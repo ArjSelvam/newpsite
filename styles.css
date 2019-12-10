@@ -67,6 +67,10 @@ section > * {
     width: 60%;
 }
 
+section {
+    border-bottom: solid 1px #e5e5e5;  
+}
+
 section h1 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
@@ -75,7 +79,7 @@ section h1 {
     line-height: 1.2;
 }
 
-section h2 {
+h2 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -197,6 +201,31 @@ label.sidenote-number {
 
 label.margin-toggle:not(.sidenote-number) {
     display: none; 
+}
+
+/*  Playlist */
+
+.music h2 {
+    color: #767676;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.artwork img {
+    max-width:  250px;
+}
+
+.tracklist {
+    font-size: .7rem;
+    line-height: 1;
+    vertical-align: baseline;
+    margin-top: 40px;
 }
 
 footer {
