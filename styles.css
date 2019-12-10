@@ -280,6 +280,15 @@ footer .copyright {
 
 @media (max-width: 480px) {
 
+header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        color: #767676; 
+}
+
 section > * {
     width: 100%;
 }
