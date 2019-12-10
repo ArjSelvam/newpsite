@@ -280,11 +280,17 @@ footer .copyright {
 
 @media (max-width: 480px) {
 
-header nav {
-        display: block;
-        align-items: center;
-        font-size: 14px;
-        color: #767676; 
+header nav a {        
+    font-size: 14px;
+    margin-left: 10px;    
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
 }
 
 section > * {
