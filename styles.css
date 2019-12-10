@@ -280,6 +280,11 @@ footer .copyright {
 
 @media (max-width: 480px) {
 
+header .container {
+    justify-content: flex-start;
+    padding: 0 20px 12px 10px;
+}
+
 header nav a {        
     font-size: 14px;
     margin-left: 10px;    
