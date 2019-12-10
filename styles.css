@@ -316,6 +316,10 @@ br {
     line-height: 30%;
  }
 
+ .artwork img {
+    margin-bottom: -12px;
+}
+
 .caption {
     font-size: .7rem;
     line-height: 1;
