@@ -24,7 +24,7 @@ header .container {
     margin-right: auto;
     text-decoration: none;
     /* text-transform: uppercase; */
-    /* border-bottom: solid 1px #58585D;  */
+    border-bottom: solid 1px #58585D; 
 }
 
 .container {
