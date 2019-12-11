@@ -109,6 +109,10 @@ img {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
+.aboutimage img {
+    margin-bottom: 3px;
+}
+
 .quote {
     font-family: 'Noto Sans', sans-serif; 
     font-size: .7rem;
@@ -128,10 +132,6 @@ img {
         vertical-align: baseline;
         color: #767676;
 }
-
-/* .hook {
-    margin-top: 5px;
-} */
 
 .sidenote,
 .marginnote {
