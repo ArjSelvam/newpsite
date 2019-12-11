@@ -228,20 +228,21 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .artwork img {
-    max-width:  250px;
+    max-width:  400px;
     margin-bottom: -7px;
 }
 
 .summary {
     max-width: 400px;
-    margin-top:  -15px;
+    margin-top:  -5px;
 }
 
 .tracklist {
     font-size: .7rem;
     line-height: 1;
     vertical-align: baseline;
-    margin-top: 20px;
+    margin-top: 12px;
+    margin-bottom: 7px;
 }
 
 footer {
