@@ -73,10 +73,6 @@ section > * {
     width: 60%;
 }
 
-/* section {
-    border-bottom: solid 1px #e5e5e5; 
-} */
-
 h1 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
@@ -106,7 +102,7 @@ section a:hover {
          border-bottom: solid 1px #A9653C; 
 }
 
-/* Caption, sidenotes, margin notes, figures, captions */
+/* Caption, sidenotes, margin notes, figures */
 
 img {
     max-width: 95%;
@@ -228,8 +224,9 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .artwork img {
-    max-width:  400px;
-    margin-bottom: -7px;
+    max-width:  360px;
+    margin-bottom: -5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .summary {
@@ -243,7 +240,10 @@ label.margin-toggle:not(.sidenote-number) {
     vertical-align: baseline;
     margin-top: 12px;
     margin-bottom: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* Footer */
 
 footer {
     overflow: hidden;
@@ -281,8 +281,6 @@ footer .copyright {
 }
 
 /* Media queries for mobile */
-
-/* max-width of 480px */
 
 @media (max-width: 480px) {
 
