@@ -84,7 +84,7 @@ h1 {
 
 h2 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-weight: 600;x
+    font-weight: 600;
     font-size: 16px;
     letter-spacing: -0.02em;
     line-height: 1.2;
@@ -203,6 +203,11 @@ div.fullwidth {
 }
 
 span.newthought {
+    font-variant: small-caps;
+    font-size: 1.2em; 
+}
+
+span.smallcaps {
     font-variant: small-caps;
     font-size: 1.2em; 
 }
