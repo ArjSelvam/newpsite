@@ -121,7 +121,7 @@ img {
 
 .aboutimage img {
     margin-bottom: 3px;
-    text-align: center;
+    align-items: center;
 }
 
 .quote {
