@@ -115,12 +115,13 @@ section a:hover {
 /* Caption, sidenotes, margin notes, figures */
 
 img {
-    max-width: 66.667%;
+    max-width: 70%;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .aboutimage img {
     margin-bottom: 3px;
+    text-align: center;
 }
 
 .quote {
