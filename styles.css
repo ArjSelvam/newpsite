@@ -143,6 +143,10 @@ img {
         color: #767676;
 }
 
+svg {
+    height: 30px;
+}
+
 .sidenote,
 .marginnote {
     float: right;
