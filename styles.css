@@ -1,10 +1,10 @@
 body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Arial', serif;
     font-size: 16px;
     font-weight: light;
     color: #111118;
     line-height: 1.5;
-    background-color: #e5e6e0;
+    background-color: ##ffffff;
     /* display: inline-block; */
     text-align: left;
     counter-reset: sidenote-counter; 
